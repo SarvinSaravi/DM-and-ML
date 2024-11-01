@@ -1,0 +1,57 @@
+https://medium.com/playment/top-10-open-image-datasets-for-machine-learning-research-93ab9c18bed1
+
+
+https://towardsdatascience.com/machine-learning-algorithms-part-12-hierarchical-agglomerative-clustering-example-in-python-1e18e0075019#:~:text=Hierarchical%20clustering%20algorithms%20group%20similar,together%20to%20create%20bigger%20clusters.
+
+https://stackabuse.com/hierarchical-clustering-with-python-and-scikit-learn/
+
+(UMIST dataset)
+https://paperswithcode.com/dataset/umist-1
+https://www.visioneng.org.uk/datasets/
+
+
+https://www.thepythoncode.com/article/kmeans-for-image-segmentation-opencv-python
+
+
+https://scikit-learn.org/0.15/auto_examples/cluster/plot_lena_ward_segmentation.html
+
+
+https://stackoverflow.com/questions/40022496/lena-gone-in-scipy
+
+
+https://stackoverflow.com/questions/21975424/pyplot-equivalent-for-pl-cm-spectral-in-matplotlib
+
+
+*****************************************
+
+import AHC1
+import PCA1
+import Sift1
+
+pic_adres = 'Belha Ciao.jpg'
+
+descriptor = Sift1.sift_method(pic_adres)
+# descriptor shape is (m,128)
+print('SIFT result is : ', descriptor.shape)
+
+reduced_result = PCA1.PCA(descriptor, 2)
+# pca result is (m,2)
+
+AHC1.hierarchical_clustering(reduced_result, 2)
+
+
+***************************************************
+
+
+http://host.robots.ox.ac.uk/pascal/VOC/voc2012/segexamples/index.html
+
+https://www.kaggle.com/alxmamaev/flowers-recognition
+
+
+https://stackoverflow.com/questions/59118095/why-is-sklearn-metrics-silhouette-score-so-slow-for-sparse-matrix-input#comment111007183_59118095
+
+https://stackoverflow.com/questions/33369832/read-multiple-images-on-a-folder-in-opencv-python/33371454
+
+https://stackoverflow.com/questions/6915106/saving-a-numpy-array-as-an-image-instructions
+
+
